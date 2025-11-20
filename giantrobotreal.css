@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cabin;
+    background-color: #201313;
+    text-align: justify;
+}
+
+header{
+    background-color: #201313;
+}
+
+header button{
+    margin-right: 0;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: white;
+    background-color: #e03131;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 18px;
+
+}
+h1 {
+    font-size: 50px;
+}
+h3 {
+    color: white;
+    margin-left: 200px;
+    font-size: 17px;
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.blogs{
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    max-width: 950px;
+}
+hr {
+    margin-left: 200px;
+    width:900px;
+}
+p {
+    font-size: 20px;
+}
+.blogs a {
+    color: #ffe7a3;
+    text-decoration: none;
+}
+.blogs h2 {
+    color: white;
+    font-size: 27px;
+
+}
+.second_nav {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.second_nav a {
+    border: 1px solid white;
+    height: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.second_nav a:hover {
+    background-color: #ffe7a3;
+    color: black;
+}
+.a_form {
+    margin-left: 200px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    padding: 40px;
+    width: 800px;
+    background-color: #2f1c1c;
+    
+}
+.details {
+    width: 600px;
+    height: 40px;
+    background-color: #201313;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.details :active {
+    border-bottom-color: red;
+}
+.blogs a:hover {
+    color: #ffc726;
+}
+.a_form button {
+    background-color: #e03131;
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+.end {
+    margin-bottom: 50px;
+}

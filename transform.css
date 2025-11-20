@@ -1,0 +1,123 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+   /* transform: translate(100px, 120px);*/
+   transform: translateX(160px);
+   /*moves it left and right */
+   transform: translateY(190px); 
+   /*MOVES IT UP AND DOWN */
+   transform: scale(2);
+   /*multiplies by the value given in this case by 2 */
+
+   
+
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /*transform: rotate(200deg);*/
+    /*transform: skew(20deg, 10deg);*/
+    /*streches it in a slanted way*/
+
+}
+
+.box:hover {
+    transform: scale(0.5);
+    transition-duration: 3s;
+}
+.box2:hover {
+    transform: translate(100px);
+
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation:pulse 2s 10 ease-in;
+}
+@keyframes pulse {
+    0% {transform: scale(0.7);}
+    50% {transform: scale(1);}
+    100% { transform: scale(1.3);}
+}
+
+
+
+.words p {
+    opacity: 0;
+    position: absolute;
+    color: pink;
+    font-size: 20px;
+}
+p {
+    animation: changewords 10s infinite;
+}
+.words p:nth-child(1) {
+    animation-delay: 0s;
+}
+.words p:nth-child(2) {
+    animation-delay: 2s;
+}
+.words p:nth-child(3) {
+    animation-delay: 4s;
+}
+.words p:nth-child(4) {
+    animation-delay: 6s;
+}
+.words p:nth-child(5) {
+    animation-delay: 8s;
+}
+/*
+@keyframes changewords {
+    0% {opacity: 0; transform: translateX(10px);}
+    10% {opacity: 1; transform: translateX(0);}
+    25% {opacity: 0;}
+    35% {opacity: 0; transform: translateX(-10px);}
+    100% {opacity: 0;}
+}
+ */
+/*@keyframes changewords {
+    0% {opacity: 0; transform: translateY(10px);}
+    /*positive 10px means the text are down from the original position vertically */
+    10% {opacity: 1; transform: translateY(0);}
+    25% {opacity: 0;}
+    35% {opacity: 0; transform: translateY(-10px);}
+    /*negative means they are higher */
+    100% {opacity: 0;}
+
+} 
+
+
+.flip-card {
+    width: 200px;
+    height: 100px;
+    perspective: 800px;
+}
+.flip-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+.front, .back {
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.front {
+    background-color: brown;
+}
+.back {
+    background-color: blueviolet;
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.newbox {
+    display: flex;
+    /*display: inline;
+}
+
+/*Display properties
+-it detremines how an element is displayed
+-the property 'justify-content' only works when you use the display property
+-justify content atrribute like'space-between' gives equal amounts of space between elements and 'space-around' gives space around
+-'gap' property to specify size of space between items
+
+
+/*
+h1 {
+    border: 4px solid green;
+    padding: 20px;
+    margin: 10px 40px;
+    text-decoration: line-through;
+}
+.newbox {
+    height: 300px;
+    width: 400px;
+    background-color: pink
+}
+.firstbox {
+    border: 8px solid red;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: ;
+}
+.box p {
+    font-size: 40px;
+    font-family: Licorice;
+    font-size: 50px;
+    /* this means for p inside the box class */
+/*
+.box>p {
+    font-size: 20px;
+}
+.h1 + p {
+    font-size: 50px;
+/* 
+This picks the adjacent element(the one directly below)
+The > selector picks the direct descendant.
+ */
+
+/* pseudo class like :hover */
+/*button {
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 200px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: green;
+    border: 4px solid black;
+} 
+.newp {
+    text-indent: 100px; /* spacing To start a new paragraph */
+    /*
+    -webkit-text-stroke: 1px purple;
+    text-shadow: 2px 2px 3px blue;
+    text-decoration: underline solid red;
+    line-height: 80px;
+    text-transform: capitalize;
+    word-spacing: 20px;
+}

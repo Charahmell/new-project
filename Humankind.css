@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #0d1422;
+    color: #cfd0d3;
+
+}
+header h1 {
+    font-size: 34px;
+}
+.bg1 {
+    background-image: url(/Media/humankind\ bg1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.btn-1 {
+    width: 190px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid white;
+    color: white;
+
+} 
+.btn-1:hover {
+    background-color: white;
+    color: black;
+}
+.texts img {
+    width: 200px;
+    height: 260px;
+    border-radius: 7px;
+}
+.bg3 {
+    background-image: url(/Media/whitebackground.jpg);
+    background-size: cover;
+}
+.button4:hover {
+    border: 1px solid black;
+    color: white; 
+    background-color: #131622;
+
+}
+/* .card {
+    width: 500px;
+    height: 100px;
+} */
+.bg4 {
+    background-image: url(/Media/blue\ background.jpg);
+    background-size: cover;
+}
+.bg4 img {
+    height: 230px;
+    width: 380px;
+    margin-top: 70px;
+}

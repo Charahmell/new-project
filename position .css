@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 300vh;
+.header {
+    position: sticky;
+    background-color: yellow;
+
+}
+}
+.container {
+    background-color: purple;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+.absolute {
+    left: 50px;
+
+}
+
+
+h1 {
+    position: relative;
+    z-index: 5;
+    /*the z index is used to arrange elements in situations where they overlap
+    the element with higher z-index is given priority over that of the lowest*/
+}
+button {
+    height: 60px;
+    position: fixed;
+    /* the fixed property of position makes it that the element does not move when you scroll */
+    top: 0;
+}

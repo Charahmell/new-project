@@ -1,0 +1,105 @@
+body{
+    background-color: #101418;
+}
+.title {
+    color: #ffffff;
+    position: absolute;
+    top: 52px;
+    left: 60%;
+    font-family: Noto Serif ;
+    font-size: 17px;
+}
+.container {
+    height: 500px;
+    width: 1000px;
+    position: relative;
+
+}
+.globe {
+    width: 260px;
+    position: absolute;
+    left: 56%;
+    top: 220px;
+
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+p {
+    color: #a2a9b1;
+    font-size: 15px;
+}
+.english {
+    position: absolute;
+    margin-left: 450px;
+    top: 130px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang2 {
+    position: absolute;
+    margin-left: 400px;
+    top: 210px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang3 {
+    position: absolute;
+    margin-left: 400px;
+    top: 290px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang4 {
+    position: absolute;
+    margin-left: 410px;
+    top: 370px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang5 {
+    position: absolute;
+    margin-left: 490px;
+    top: 445px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang6 {
+    position: absolute;
+    margin-left: 800px;
+    top: 130px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang7 {
+    position: absolute;
+    margin-left: 850px;
+    top: 210px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang8 {
+    position: absolute;
+    margin-left: 850px;
+    top: 290px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang9 {
+    position: absolute;
+    margin-left: 850px;
+    top: 370px;
+    color: #2b71db;
+    text-align: center;
+}
+.lang10 {
+    position: absolute;
+    margin-left: 800px;
+    top: 440px;
+    color: #2b71db;
+    text-align: center;
+}
+
+
+
