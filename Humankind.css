@@ -42,12 +42,7 @@ header h1 {
     border: 1px solid black;
     color: white; 
     background-color: #131622;
-
 }
-/* .card {
-    width: 500px;
-    height: 100px;
-} */
 .bg4 {
     background-image: url(/Media/blue\ background.jpg);
     background-size: cover;
@@ -56,4 +51,105 @@ header h1 {
     height: 230px;
     width: 380px;
     margin-top: 70px;
+}
+.btn-5 {
+    width: 190px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid white;
+    color: white;
+} 
+.bg5 {
+    background-image: url(/Media/astronautbgblur.jpg);
+    background-size: cover;
+    height: 350px;  
+}
+.quotesgen {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+    
+.quotes {
+    margin-top: 80px;
+    position: absolute;
+    width: 550PX;
+    color: white;
+    font-size: 17px;
+    animation: rotatewords 9s linear infinite;
+}
+.quotes:nth-child(1) {
+    animation-delay: 0S;
+}
+.quotes:nth-child(2) {
+    animation-delay: 3s;
+}
+.quotes:nth-child(3) {
+    animation-delay: 6s;
+}
+.quotes:nth-child(4) {
+    animation-delay: 9s;
+}
+
+@keyframes rotatewords {
+    0% {opacity: 0;}
+    5% {opacity: 1;}
+    25% {opacity: 1;}
+    35% {opacity: 0;}
+    100% {opacity: 0;}
+}
+.quotes h1 {
+    margin: 30px;
+}
+.grid-section img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.bg6 h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 44%;
+}
+.buttonI {
+    border: 1px solid white;
+    color: white;
+    background-color: #0d1422;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 68px;
+    height: 30px;
+    position: relative;
+    left: 76%;
+}
+.buttonv {
+    color: white;
+    border: 1px solid white;
+    background-color: #0d1422;
+    font-size: 16px;
+    width: 70px;
+    border-radius: 5px;
+    height: 30px;
+    position: relative;
+    left: 77%; 
+}
+.bg7 {
+    background-image: url(/Media/7th\ bg.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.bg7-image {
+    width: 400px;
+}
+.button6 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.shit img {
+    width: 170px;
 }

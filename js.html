@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" placeholder="FirstNumber" id="num1">
+    <input type="number" placeholder="SecondNumber" id="num2">
+    <input type="text" placeholder="sign" id="sign">
+    <p id="answer"></p>
+    <button onclick="calculate()">Answer</button>
+
+
+
+    <script>
+        function add() {
+            let a = Number(document.getElementById("num1").value)
+            let b = Number(document.getElementById("num2").value)
+            // let sign = String(document.getElementById("sign").value)
+            document.getElementById("answer").innerHTML = "The Answer is " + (a * b)
+
+        }
+        function calculate() {
+            let a = Number(document.getElementById("num1").value)
+            let b = Number(document.getElementById("num2").value)
+            let sign = String(document.getElementById("sign").value)
+            let answer;
+
+            if (sign == "+") {
+                answer = a + b;
+            }
+            else if (sign == "*") {
+                answer = a * b;
+            }
+            else {
+                answer = "Invalid"
+            }
+
+            document.getElementById('answer').innerHTML = answer
+
+
+
+            // if (sign == "+") {
+            //     document.getElementById("answer").innerHTML = "The Answer is " + (a + b);
+            // }
+            // else if (sign == "-") {
+            //     document.getElementById("answer").innerHTML = "The Answer is " + (a - b);
+            // }
+            // else if (sign == "*") {
+            //     document.getElementById("answer").innerHTML = "The Answer is " + (a * b);
+            // }
+            // else if (sign == "/") {
+            //     document.getElementById("answer").innerHTML = "The Answer is " + (a / b);
+            // }
+            // else if (sign == "**") {
+            //     document.getElementById("answer").innerHTML = "The Answer is " + (a ** b);
+            // }
+
+
+
+
+        }
+    </script>
+    <!-- <button onclick="alert('Hello this is javascript')">This is a button</button>
+
+
+      <script>
+        // data types (primitive)
+        let Age = 30;
+        let Name = "Temiloluwa";
+        let yes = false;
+        let no = true;
+        let x; 
+        let number = 363774629775n;
+
+
+        // operations in JS
+        
+        let num1 = 10;
+        let num2 =5;
+
+        console.log(num1 + num2); -->
+
+
+
+
+    </script>
+
+</body>
+
+</html>
